@@ -44,7 +44,8 @@ class Atividade_1 extends StatelessWidget {
                             fontSize: 15,
                           )),
                     ],
-                  )),
+                  )
+                ),
               Container(
                   padding: const EdgeInsets.only(left: 15),
                   alignment: Alignment.topLeft,
