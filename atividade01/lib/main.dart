@@ -15,10 +15,11 @@ class Atividade_1 extends StatelessWidget {
                     fontSize: 20, color: Color.fromARGB(255, 213, 228, 239))),
             centerTitle: true,
           ),
+          drawer: Drawer(),
           body: Column(
             children: [
-              Container(
-                child: Image.asset('imagens/ji_Parana.jpg'),
+              Image(
+                image: AssetImage('imagens/ji_Parana.jpg'),
               ),
               Container(
                   alignment: Alignment.topLeft,
@@ -33,6 +34,11 @@ class Atividade_1 extends StatelessWidget {
                       Spacer(), // Ocupa o espaço restante na linha
                       Icon(Icons.star,
                           color: Color.fromARGB(255, 46, 106, 234)),
+                      Icon(Icons.star,
+                          color: Color.fromARGB(255, 46, 106, 234)),
+                      Icon(Icons.star,
+                          color: Color.fromARGB(255, 46, 106, 234)),
+                       SizedBox(width: 6), // um espaço entre esse dois códigos
                       Text("3.500",
                           style: TextStyle(
                             fontSize: 15,
@@ -55,23 +61,29 @@ class Atividade_1 extends StatelessWidget {
                 children: [
                   Container(
                       padding: const EdgeInsets.only(top: 60),
-                      child: const Column(
+                      child:  Column(
                         children: [
-                          Icon(Icons.phone,
-                              color: Color.fromARGB(255, 46, 106, 234)),
-                          Text("Ligar",
-                              style: TextStyle(
-                                fontSize: 15,
-                              )),
+                          IconButton(
+                             onPressed: () {},
+                            icon: Icon(Icons.facebook,
+                              color: Color.fromARGB(255, 46, 106, 234), size: 40),
+                          ),
+                          Text("Facebook",
+                            style: TextStyle(
+                            fontSize: 15,),
+                          ),
                         ],
                       )
                   ),
                   Container(
                       padding: const EdgeInsets.only(top: 60),
-                      child: const Column(
+                      child:  Column(
                         children: [
-                          Icon(Icons.map,
-                              color: Color.fromARGB(255, 46, 106, 234)),
+                          IconButton( 
+                            onPressed: () {},
+                             icon:Icon(Icons.map,
+                              color: Color.fromARGB(255, 46, 106, 234), size: 40), 
+                          ),
                           Text("Endereço",
                               style: TextStyle(
                                 fontSize: 15,
@@ -81,10 +93,13 @@ class Atividade_1 extends StatelessWidget {
                   ),
                   Container(
                       padding: const EdgeInsets.only(top: 60),
-                      child: const Column(
+                      child:  Column(
                         children: [
-                          Icon(Icons.share,
-                              color: Color.fromARGB(255, 46, 106, 234)),
+                           IconButton( 
+                            onPressed: () {},
+                             icon:Icon(Icons.share,
+                              color: Color.fromARGB(255, 46, 106, 234), size: 40),
+                          ),
                           Text("Compartilhar",
                               style: TextStyle(
                                 fontSize: 15,
@@ -95,7 +110,7 @@ class Atividade_1 extends StatelessWidget {
                 ],
               ),
               Container(
-                padding: EdgeInsets.only(top: 60 , left: 10, right: 10),
+                padding: EdgeInsets.only(top: 70 , left: 10, right: 10),
                 child: const Row(
                   children: [
                     Expanded(
