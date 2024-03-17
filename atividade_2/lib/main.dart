@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'app/pages/home.dart';
-
+import 'app/pages/povoDoAr.dart';
 void main() {
   runApp(Atividade2 ());
 }
@@ -27,6 +27,8 @@ class Atividade2 extends StatelessWidget {
        routes: {
         '/atividade2':(context) => Atividade2(),
         '/home':(context) => Home(),
+        '/povodoar':(context) => PovoDoAr(),
+
        },
        //primeira tela a ser corregada
        initialRoute: '/home',
