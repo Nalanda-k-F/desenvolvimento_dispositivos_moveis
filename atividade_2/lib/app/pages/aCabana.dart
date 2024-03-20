@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:atividade_2/app/widgets/povoDoAR2.dart';
+import 'package:atividade_2/app/widgets/aCabana2.dart';
 
-class PovoDoAr extends StatelessWidget {
+class ACabana extends StatelessWidget {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 2,

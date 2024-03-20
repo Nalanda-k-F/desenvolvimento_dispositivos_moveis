@@ -71,7 +71,7 @@ class Home extends StatelessWidget {
                 Expanded(
                   child: TextButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/a_cabana');
+                      Navigator.pushNamed(context, '/aCabana');
                     },
                      child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,

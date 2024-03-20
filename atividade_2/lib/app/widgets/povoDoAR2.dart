@@ -20,7 +20,7 @@ class SobreoLivro extends StatelessWidget {
             endIndent: 20,
           ),
           Container(
-              padding: EdgeInsets.only(top: 20, left: 5, right: 5),
+              padding: EdgeInsets.only(top: 20),
               alignment: Alignment.topLeft,
               child: Column(
                 children: [
@@ -40,7 +40,7 @@ class SobreoLivro extends StatelessWidget {
                     ' humano e o mundo das criaturas mágicas coexistem. A protagonista é Jude Duarte,'
                     ' uma garota mortal que, quando criança, foi levada para a Terra das Fadas juntamente'
                     ' com suas irmãs após a morte de seus pais.',
-                    style: TextStyle(fontSize: 15, color: Colors.black),
+                    style: TextStyle(fontSize: 20, color: Colors.black),
                     textAlign: TextAlign.justify,
                   ),
                 ),

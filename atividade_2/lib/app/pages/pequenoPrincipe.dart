@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:atividade_2/app/widgets/povoDoAR2.dart';
+import 'package:atividade_2/app/widgets/pequenoPrincipe2.dart';
 
-class PovoDoAr extends StatelessWidget {
+class PequenoPrincipe extends StatelessWidget {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 2,
@@ -9,7 +9,7 @@ class PovoDoAr extends StatelessWidget {
         appBar: AppBar(
           title: Text(
             'Descrição do Livro',
-            style: TextStyle(fontSize: 35,),
+            style: TextStyle(fontSize: 35),
           ),
           centerTitle: true,
           bottom: const TabBar(
@@ -19,6 +19,8 @@ class PovoDoAr extends StatelessWidget {
           children: [SobreoLivro(), MaisDetalhes()],
         ),
       ),
+       
     );
+    
   }
 }
