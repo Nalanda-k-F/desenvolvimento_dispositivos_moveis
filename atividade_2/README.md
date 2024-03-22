@@ -6,7 +6,3 @@ Desenvolva um aplicativo que ofereça uma biblioteca digital de livros. O aplica
 
 ## Imagens
 
-
-![Imagem1](https://github.com/Nalanda-k-F/desenvolvimento_dispositivos_moveis/assets/133884312/f216b249-edf3-4b48-abbe-f8411f75302b)
-![Imagem2](https://github.com/Nalanda-k-F/desenvolvimento_dispositivos_moveis/assets/133884312/db4feb93-6ccb-4273-b8fc-cb77b0dd0c7f)
-![Imagem3](https://github.com/Nalanda-k-F/desenvolvimento_dispositivos_moveis/assets/133884312/c374a163-85d8-4ae2-a571-f60d20c2968a)
