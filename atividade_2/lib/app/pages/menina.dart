@@ -9,7 +9,7 @@ class Menina extends StatelessWidget {
         appBar: AppBar(
           title: Text(
             'Informações do Livro',
-            style: TextStyle(fontSize: 35),
+            style: TextStyle(fontSize: 25),
           ),
           centerTitle: true,
           bottom: const TabBar(
