@@ -8,7 +8,7 @@ class ACabana extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           title: Text(
-            'Descrição do Livro',
+            'Informações do Livro',
             style: TextStyle(fontSize: 35,),
           ),
           centerTitle: true,

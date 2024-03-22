@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:atividade_2/app/widgets/pequenoPrincipe2.dart';
+import 'package:atividade_2/app/widgets/culpa_das_estrelas2.dart';
 
-class PequenoPrincipe extends StatelessWidget {
+class CulpaDasEstrelas extends StatelessWidget {
   Widget build(BuildContext context) {
     return DefaultTabController(
       length: 2,

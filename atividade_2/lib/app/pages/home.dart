@@ -121,7 +121,7 @@ class Home extends StatelessWidget {
                 Expanded(
                   child: TextButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/culpaDasEstrelas');
+                      Navigator.pushNamed(context, '/culpa_das_estrelas');
                     },
                      child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -146,7 +146,7 @@ class Home extends StatelessWidget {
                 Expanded(
                   child: TextButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/desacelera');
+                      Navigator.pushNamed(context, '/desacelara');
                     },
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -154,7 +154,7 @@ class Home extends StatelessWidget {
                         Image(
                           image: AssetImage('img/desacelera.png'),
                         ),
-                        Text('As coisas que você só vê quando Desacelera',
+                        Text('As Coisas que Você Só Vê Quando Desacelera',
                             style: TextStyle(
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold,
