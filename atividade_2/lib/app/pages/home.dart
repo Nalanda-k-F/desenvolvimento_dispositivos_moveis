@@ -28,6 +28,7 @@ class Home extends StatelessWidget {
                       children: [
                         Image(
                           image: AssetImage('img/OpovoDoAr.png'),
+                          
                         ),
                         Text('Triologia O Povo do Ar',
                             style: TextStyle(

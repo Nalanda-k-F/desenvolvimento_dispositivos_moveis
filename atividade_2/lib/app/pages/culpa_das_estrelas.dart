@@ -24,3 +24,4 @@ class CulpaDasEstrelas extends StatelessWidget {
     
   }
 }
+
